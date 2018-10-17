@@ -17,6 +17,6 @@ deploy:
     api_key: $NPM_TOKEN
     on:
       branch: master
-      repo: heifade/happywork-ftp
+      repo: heifade/happywork-rename
 
 
