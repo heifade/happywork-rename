@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "happywork-rename": "./bin/index.js"
+  },
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "start": "happywork-rename rename --path ./test "
@@ -19,7 +22,6 @@
     "@types/progress": "^2.0.1",
     "@types/single-line-log": "^1.1.0",
     "@types/uuid": "^3.4.4",
-    "basic-ftp": "^2.14.3",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "lodash-es": "^4.17.11",
