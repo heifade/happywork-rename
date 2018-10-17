@@ -12,7 +12,7 @@ function toInt(v: string) {
 
 export function addRenameCommand() {
   commander
-    .command("rename")
+    // .command("rename")
     .option("--prefix <n>", "文件名开头", "P")
     .option("--length <n>", "数字位数", toInt, 3)
     .option("--path <n>", "目录，默认为当前目录", resolve(process.cwd()))

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rollup --config rollup.config.js",
-    "start": "happywork-rename rename --path ./test "
+    "start": "happywork-rename --path ./test "
   },
   "keywords": [],
   "author": "",
