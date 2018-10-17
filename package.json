@@ -1,6 +1,6 @@
 {
   "name": "happywork-rename",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,10 @@
     "build": "rollup --config rollup.config.js",
     "start": "happywork-rename --path ./test "
   },
+  "files": [
+    "bin",
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
