@@ -1,6 +1,6 @@
 {
   "name": "happywork-rename",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,8 +11,7 @@
     "start": "happywork-rename --path ./test "
   },
   "files": [
-    "bin",
-    "dist"
+    "bin"
   ],
   "keywords": [],
   "author": "",
