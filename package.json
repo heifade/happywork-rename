@@ -1,6 +1,6 @@
 {
   "name": "happywork-rename",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -22,7 +22,7 @@
     "@types/uuid": "^3.4.4",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
-    "happywork-node-builder": "^1.0.8",
+    "happywork-node-builder": "latest",
     "lodash-es": "^4.17.11",
     "progress": "^2.0.0",
     "uuid": "^3.3.2"
